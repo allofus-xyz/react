@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+.nav {
+  margin-top: 7rem;
+  width: 100%;
+  height: 80%; }
+  .nav .nav-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #6c757d !important;
+    padding: .5rem 0 .5rem 1rem;
+    margin: .3rem 0;
+    border-radius: 8px;
+    position: relative; }
+    .nav .nav-link .menu-list {
+      margin-left: 1rem;
+      margin-bottom: 0; }
+    .nav .nav-link .caret {
+      width: 8px;
+      height: 8px;
+      border-top: 2px solid #6c757d;
+      border-right: 2px solid #6c757d;
+      transform: rotate(45deg);
+      position: absolute;
+      right: 1rem; }
+  .nav .nav-divider {
+    border: 1px solid #e9ecef;
+    height: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 9rem;
+    margin: -.5rem; }
+  .nav .nav-setting {
+    position: absolute;
+    bottom: 4.225rem; }
+  .nav .nav-logout {
+    position: absolute;
+    bottom: 1rem; }
+  .nav .nav-link.active {
+    width: 100%;
+    background-color: #e9ecef;
+    color: #6c757d; }
+
+.right-side {
+  position: relative; }
+  .right-side form {
+    position: absolute;
+    right: 2rem; }
+    .right-side form .search-icon {
+      position: absolute;
+      left: .5rem;
+      z-index: 2;
+      margin-top: -2px; }
+    .right-side form .form-control {
+      padding-left: 2rem;
+      width: 15rem; }
+    .right-side form .btn {
+      width: 10rem;
+      color: #fff;
+      background-color: #5e1ae6 !important; }
+      .right-side form .btn #i-plus {
+        margin-left: 5px;
+        margin-top: -3px; }
+  .right-side .tab-content {
+    height: 100%;
+    width: 100%;
+    background-color: #e9ecef; }
+    .right-side .tab-content .tab-pane .navbar {
+      height: 10%;
+      padding: 1.5rem 3rem;
+      align-content: center; }
+    .right-side .tab-content .tab-pane .content-list {
+      padding: 2rem; }
+    .right-side .tab-content .tab-pane .card {
+      width: 28rem;
+      height: 13rem;
+      border-radius: 20px;
+      display: inline-grid;
+      margin: 1rem; }
+      .right-side .tab-content .tab-pane .card .image {
+        width: 100%;
+        height: 100%;
+        border: 1px solid red;
+        border-radius: 20px; }
+        .right-side .tab-content .tab-pane .card .image .card-img {
+          margin: 0 auto;
+          border-radius: 20px; }
+      .right-side .tab-content .tab-pane .card .card-content .card-body {
+        color: #6c757d;
+        padding-right: 0 !important; }
+
+/*# sourceMappingURL=demo.css.map */
